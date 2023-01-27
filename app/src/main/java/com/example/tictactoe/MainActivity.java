@@ -101,11 +101,11 @@ public class MainActivity extends AppCompatActivity {
                     // game reset function be called
 
                     if (gameState[winPosition[0]] == 0) {
-                        winnerStr = "X has won";
+                        winnerStr = "Player 1 has won";
                         p1++;
                         setP1(p1);
                     } else {
-                        winnerStr = "O has won";
+                        winnerStr = "Player 2 has won";
                         p2++;
                         setP2(p2);
                     }
@@ -118,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
             // set the status if the match draw
             if (turn == 9 && flag == 0) {
                 System.out.println("draw");
+                Toast.makeText(this, "Draw", Toast.LENGTH_SHORT).show();
                 resetGame();
             }
         }
