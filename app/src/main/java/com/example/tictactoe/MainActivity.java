@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
                         setP2(p2);
                     }
                     System.out.println(winnerStr);
+                    Toast.makeText(this, winnerStr, Toast.LENGTH_SHORT).show();
                     resetGame();
                 }
 
