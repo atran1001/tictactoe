@@ -76,7 +76,7 @@
         android:layout_width="106dp"
         android:layout_height="127dp"
         android:onClick="button00OnClick"
-        android:text="-"
+        
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.101"
@@ -89,7 +89,7 @@
         android:layout_width="106dp"
         android:layout_height="127dp"
         android:onClick="button01OnClick"
-        android:text="-"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"
@@ -102,7 +102,7 @@
         android:layout_width="106dp"
         android:layout_height="127dp"
         android:onClick="button02OnClick"
-        android:text="-"
+        
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
@@ -115,7 +115,7 @@
         android:layout_width="106dp"
         android:layout_height="127dp"
         android:onClick="button10OnClick"
-        android:text="-"
+        
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.101"
@@ -128,7 +128,7 @@
         android:layout_width="106dp"
         android:layout_height="127dp"
         android:onClick="button11OnClick"
-        android:text="-"
+        
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"
@@ -141,7 +141,7 @@
         android:layout_width="106dp"
         android:layout_height="127dp"
         android:onClick="button12OnClick"
-        android:text="-"
+        
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
@@ -154,7 +154,7 @@
         android:layout_width="106dp"
         android:layout_height="127dp"
         android:onClick="button20OnClick"
-        android:text="-"
+        
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.101"
@@ -167,7 +167,6 @@
         android:layout_width="106dp"
         android:layout_height="127dp"
         android:onClick="button21OnClick"
-        android:text="-"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"
@@ -180,13 +179,25 @@
         android:layout_width="106dp"
         android:layout_height="127dp"
         android:onClick="button22OnClick"
-        android:text="-"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.819" />
+
+    <TextView
+        android:id="@+id/playerTurn"
+        android:layout_width="272dp"
+        android:layout_height="47dp"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
